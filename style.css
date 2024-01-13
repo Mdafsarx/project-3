@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;800&display=swap');
+
+
+/* shared item */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.common-h2{
+    font-size: 2rem;
+    width: 700px;
+
+}
+.common-h1{
+    font-size: 3rem;
+}
+
+.common-p{
+    color: #727272;
+}
+.common-button{
+    background-color: orangered;
+    padding: 15px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+/* shared item end */
+
+/* nav section */
+header{
+    background-color:lemonchiffon;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav > ul{
+    display: flex;
+    gap: 30px;
+}
+nav > ul > li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    
+}
+/* header banner section */
+
+header section{
+    padding: 50px 240px;
+    text-align: center;
+}
+
+.banner > img{
+    width: 100%;
+max-height: 350px;
+object-fit: cover;
+}
+/* header section end */
+main{
+    max-width: calc(100% - 30%);
+    margin: 40px auto;
+}
+
+
+/* team section start */
+.team-container{
+display: flex;
+align-items: center;
+
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    
+}
+.team-img img{
+    width: 30vh;
+    
+}
+
+.team-content{
+    padding-left: 60px;
+    /* padding-right: 20px; */
+    text-align: left;
+}
+
+/* features section */
+
+
+.features-container{
+display: flex;
+margin-top: 60px;
+
+}
+.features-card-container{
+    padding-right: 80px;
+}
+
+.features-container img{
+    width: 150%;
+}
+
+.features-card{
+    /* padding: 20px 25px 10px 25px; */
+    background: rgb(251, 251, 250);
+    box-shadow: 0px 8px 5px oldlace;
+    margin-bottom: 10px;
+    padding: 25px;
+    border-radius: 5px;
+}
+.tenyears-ex{
+    text-align: center;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 7px;
+    color: whitesmoke;
+    position: relative;
+    bottom: 60px;
+    right: 40px;
+}
